@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/LIGHTMODELCOLLEGE/static/css/main.75c08f23.css",
+    "main.js": "/LIGHTMODELCOLLEGE/static/js/main.64e5b617.js",
+    "static/media/Playground.jpg": "/LIGHTMODELCOLLEGE/static/media/Playground.63cf4f6c97d03dcc86b0.jpg",
+    "static/media/All-kids.png": "/LIGHTMODELCOLLEGE/static/media/All-kids.d3fbfe660a0e19430cc6.png",
+    "static/media/kids.png": "/LIGHTMODELCOLLEGE/static/media/kids.0cf3fdb13e9986b40d5a.png",
+    "static/media/kids1.jpg": "/LIGHTMODELCOLLEGE/static/media/kids1.c777adbe213f6f06ae05.jpg",
+    "static/media/mother.jpg": "/LIGHTMODELCOLLEGE/static/media/mother.8f60d76e3ef7b9c86502.jpg",
+    "static/media/news1.jpg": "/LIGHTMODELCOLLEGE/static/media/news1.4f206b807bd84d5f6709.jpg",
+    "static/media/news2.jpg": "/LIGHTMODELCOLLEGE/static/media/news2.4685f295164db4437986.jpg",
+    "static/media/school-website-template-design.jpg": "/LIGHTMODELCOLLEGE/static/media/school-website-template-design.827ed58bd8c25ebdac9a.jpg",
+    "static/media/child8.jpg": "/LIGHTMODELCOLLEGE/static/media/child8.da2e69e7123007084dc4.jpg",
+    "static/media/child3.jpg": "/LIGHTMODELCOLLEGE/static/media/child3.91cac2d99bc8bd42e856.jpg",
+    "static/media/child7.jpg": "/LIGHTMODELCOLLEGE/static/media/child7.19f7128f284bb77c5931.jpg",
+    "static/media/child6.jpg": "/LIGHTMODELCOLLEGE/static/media/child6.2b44efe965761cbe0514.jpg",
+    "static/media/child4.jpg": "/LIGHTMODELCOLLEGE/static/media/child4.963afc4027c72ac99b9d.jpg",
+    "static/media/child5.jpg": "/LIGHTMODELCOLLEGE/static/media/child5.cacba4c1355fb931d006.jpg",
+    "static/media/child1.jpg": "/LIGHTMODELCOLLEGE/static/media/child1.67a3acc922a813f79a7c.jpg",
+    "static/media/child2.jpg": "/LIGHTMODELCOLLEGE/static/media/child2.c3400144b97bc5499ea6.jpg",
+    "static/media/teacher1.jpg": "/LIGHTMODELCOLLEGE/static/media/teacher1.895f55ae4771520b4951.jpg",
+    "static/media/teacher4.jpg": "/LIGHTMODELCOLLEGE/static/media/teacher4.dd0558d85663a63b72d5.jpg",
+    "static/media/teacher3.jpg": "/LIGHTMODELCOLLEGE/static/media/teacher3.02acc39b6c1aeccafdea.jpg",
+    "static/media/teacher2.jpg": "/LIGHTMODELCOLLEGE/static/media/teacher2.f72ca290c787384849ff.jpg",
+    "index.html": "/LIGHTMODELCOLLEGE/index.html",
+    "main.75c08f23.css.map": "/LIGHTMODELCOLLEGE/static/css/main.75c08f23.css.map",
+    "main.64e5b617.js.map": "/LIGHTMODELCOLLEGE/static/js/main.64e5b617.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75c08f23.css",
+    "static/js/main.64e5b617.js"
+  ]
+}
