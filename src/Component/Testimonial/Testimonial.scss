@@ -1,0 +1,30 @@
+.testimonial{
+  background:linear-gradient(to top,rgba(7, 7, 7, 0.712),rgba(0, 0, 0, 0.705)),url(../../img/mother.jpg);
+  background-size: cover;
+}
+.testimonial-inner-slider{
+  width: 500%;
+}
+.testimonial .slider-one{
+  width: 20%;
+}
+.indicator {
+  text-align: center;
+  margin: 1rem auto;
+}
+.indicator input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-right: .3rem;
+  transform:  translatey(-50px);
+  cursor: pointer;
+  }
+
+.indicator input:checked {
+  background-color: #F97316 !important;
+}

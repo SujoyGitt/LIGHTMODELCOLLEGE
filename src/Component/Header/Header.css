@@ -1,0 +1,178 @@
+html{
+  scroll-behavior: smooth;
+}
+svg{
+  cursor: pointer;
+}
+.sun{
+border-top-right-radius: 100px;
+border-top-left-radius: 100px;
+}
+.header{
+  background: url(../../img/Playground.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 4;
+}
+.header .menu{
+  background: rgba(0, 0, 0, 0.651);
+}
+.header-contact-parent{
+  background: rgba(255, 255, 255, 0.61);
+}
+.header .navbar p a{
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+.header .navbar p a::after{
+  content:"";
+  position: absolute;
+  left: 0px;
+  bottom:  -6px;
+  height: 3px;
+  width: 0%;
+  background: white;
+  transition: .2s;
+}
+.header .navbar p a:hover::after{
+  width: 100%;
+}
+.header-contact-information p a{
+  font-size: 15px;
+}
+
+.header .slider {
+  box-shadow: 0px 0px 13px 5px rgba(63, 63, 63, 0.164);
+}
+.header .slider::after{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 40px;
+  top: 95%;
+  left: 0;
+  transform: rotate(-6deg);
+  background: linear-gradient(to right, rgba(77, 77, 77, 0.233), rgb(0, 0, 0));
+  filter: blur(14px);
+  z-index: -1;
+}
+.header .slider::before{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 40px;
+  top: 95%;
+  right: 0;
+  transform: rotate(6deg);
+  background: linear-gradient(to left, rgba(77, 77, 77, 0.233), rgb(0, 0, 0));
+  filter: blur(14px);
+  z-index: -1;
+}
+ .leftarrow{
+  position: absolute;
+  top: 50%;
+  left:0px;
+  transform: translate(0%,-50%);
+  background: #666666;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 3;
+}
+ .rightarrow{
+  position: absolute;
+  top: 50%;
+  right: 0px ;
+  transform: translate(0%,-50%);
+  background: #666666;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 3;
+}
+.header .slider .slider-inner .slide1{
+  background: url(../../img/kids1.jpg);
+  background-size: cover;
+ background-position: right;
+}
+.header .slider .slider-inner .slide1 a{
+  border-radius: 10px;
+}
+.header .slider .slider-inner .slide1 .slide1left{
+  clip-path: polygon(64% 0, 100% 49%, 69% 100%, 0 100%, 0 0);
+  z-index: -1;
+}
+.header .slider   .indicator {
+  text-align: center;
+  margin: 1rem auto;
+}
+.indicator input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-right: .3rem;
+  transform:  translatey(-50px);
+  cursor: pointer;
+  }
+.indicator input:checked {
+  background-color: #F97316 !important;
+}
+
+/* small navbar  */
+
+.mobilenav{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.486);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  overflow-y: scroll;
+}
+.navbarmobile{
+  position: absolute;
+  top: 0;
+  transition: .4s;
+}
+.navbarmobile .search{
+  background: rgba(0, 0, 0, 0.432);
+  color: whitesmoke;
+  padding: 0px 20px;
+  border-radius: 7px;
+}
+.navbarmobile .search svg{
+  color: rgb(194, 52, 0);
+}
+.navbarmobile .search input{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input::placeholder{
+  color: white;
+}
+.mobilenavmenu  a{
+  display: block;
+ margin-top: 1rem;
+}
+
+@media (max-width:767px) {
+  .header .slider .slider-inner .slide1 .slide1left{
+    clip-path: none;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.336);
+    text-align: center;
+     color:whitesmoke
+  }
+}

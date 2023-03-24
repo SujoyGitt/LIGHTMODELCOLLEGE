@@ -1,0 +1,80 @@
+.footer{
+  z-index: 5;
+  height: auto;
+}
+.footerbottom{
+  height: auto;
+  background: url(../../img/school-website-template-design.jpg);
+  background-size: cover;
+}
+.footercard{
+  min-height: 140px;
+  z-index: 2;
+}
+.footercard div{
+  text-align: center;
+}
+.footersocialmedia .icons svg{
+  font-size: 18px;
+  cursor: pointer;
+}
+.footersocialmedia .icons span{
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.footercard  .bg-orange-500 svg{
+  font-size: 35px;
+}
+.footercard .rounded-full{
+  line-height: 50px;
+  border: 4px solid white;
+}
+
+.footercard::after{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 30px;
+  top: 90%;
+  left: 0;
+  transform: rotate(-5deg);
+  background: linear-gradient(to right, rgba(77, 77, 77, 0.24), rgb(0, 0, 0));
+  filter: blur(10px);
+  z-index: -1;
+}
+ .footercard::before{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 30px;
+  top: 90%;
+  right: 0;
+  transform: rotate(5deg);
+  background: linear-gradient(to left, rgba(77, 77, 77, 0.233), rgb(0, 0, 0));
+  filter: blur(10px);
+  z-index: -1;
+}
+.footerwhite{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0;
+  background: rgb(255, 255, 255);
+  z-index: 1;
+}
+@media (max-width:992px) {
+  .footercard{
+    min-height: 320px;
+  
+  }
+}
+
+@media (max-width:767px) {
+  .footercard{
+    min-height: 620px;
+  
+  }
+  .footercard::after,.footercard::before{
+    top: 98%;
+  }
+}
